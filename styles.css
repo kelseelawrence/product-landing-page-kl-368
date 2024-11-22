@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2A68D;
+  }
+  
+  body { 
+    background-color: #F3DCD4;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+  }
+  
+  .logo { 
+    width: 60vh;
+  }
+  
+  .nav-link { 
+    text-decoration: none;
+    color: #000;
+  }
+  
+  ul {
+    display: flex;
+      justify-content: space-evenly; 
+    padding: 0;  
+    margin: 0;
+    list-style: none;
+    width: 100%;  
+  }
+  
+  li {
+    font-family: 'Playfair Display SC', sans-serif;
+    font-weight: 700;
+    padding: 20px; 
+    text-align: center;
+    list-style: none;
+  
+  }
+  
+  h2 { 
+    font-family: 'Playfair Display SC', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #hero { 
+   margin-top: 100px
+  }
+  
+  .wrapper { 
+    display: flex;
+  justify-content:space-around;
+  padding-bottom: 50px;
+  }
+  
+  #intro { 
+    margin: 20px;
+    width: 400px;
+  }
+  
+  #email { 
+    background-color: #F2A68D;
+    width: 300px;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+    color: #000;
+    margin: 20px;
+  }
+  
+  .btn { 
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 600;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  #form { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .frogs { 
+    width: 400px;
+    height: 400px;
+  }
+  
+  
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+  }
+  
+  
+  .yarn-wall { 
+    max-width: 100%;
+    display: block;
+    height: 250px;
+    margin: 0 auto;
+    width: 250px;
+    padding: 20px;
+  }
+  .single-crochet { 
+    max-width: 100%;
+    display: block;
+    height: 250px;
+    margin: 0 auto;
+    width: 250px;
+    padding: 20px;
+  }
+  .hooks { 
+    max-width: 100%;
+    display: block;
+    height: 250px;
+    margin: 0 auto;
+    width: 250px;
+    padding: 20px;
+  }
+  .cow { 
+    max-width: 100%;
+    display: block;
+    height: 250px;
+    margin: 0 auto;
+    width: 250px;
+    padding: 20px;
+  }
+  figure{ 
+    display: table;
+  }
+  
+  figcaption { 
+     font-family: 'Playfair Display SC', sans-serif;
+    font-weight: 600;
+    display: table-caption;
+    caption-side: top;
+    text-align: center;
+  }
+  
+  #features { 
+    padding: 50px;
+  }
+  
+  #video { 
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  
+  #pricing {
+   margin-top: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    
+  }
+  
+  #plan { 
+    font-family: 'Playfair Display SC', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 5vw;
+  }
+  
+  #one-month { 
+    background-color: #F2A68D;
+    width: 200px;
+    height: 190px;
+    margin: 10px;
+    border: #000 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  #six-months { 
+    background-color: #F2A68D;
+    width: 200px;
+    height: 190px;
+    margin: 10px;
+    border: #000 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+  
+  }
+  
+  #one-year { 
+    background-color: #F2A68D;
+    width: 200px;
+    height: 190px;
+    margin: 10px;
+    border: #000 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .level { 
+    font-family: 'Playfair Display SC', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  h3 { 
+    font-family: 'Playfair Display SC', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #saving { 
+    text-align: center;
+  }
+  
+  button { 
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  #button { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  footer {
+    margin-top: 20px;
+    background-color: #F2A68D;
+    padding: 10px;
+    text-align: center;
+    
+  }
+  
+  .icon { 
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+  #plan { 
+    font-size: 4vw
+  }
+  }
+  
